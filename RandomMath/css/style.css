@@ -1,0 +1,10 @@
+td input {
+  float: right;
+}
+
+table { margin-top: 1em; }
+
+.red {
+  background: #890C0C;
+  color: white;
+}

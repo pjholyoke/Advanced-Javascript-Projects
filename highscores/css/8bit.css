@@ -1,0 +1,104 @@
+i {
+  color: #FFF;
+  font-size: 3.8em;
+  padding: 0 0 0 .1em;
+}
+.pixel {
+  position: relative;
+  xwidth: 5em;
+  xheight: 5em;
+  float: left;
+  margin: 0 0.625em;
+  padding: 1em;
+  font-family: 'space invaders';
+  outline: solid 0.25em #000;
+  box-shadow: inset .313em .313em 0 rgba(0,0,0,0.4), inset -.313em -.313em 0 rgba(255,255,255,0.4), 0 1em 0.625em -.4em rgba(0,0,0,0.8);
+  transition: linear .2s;
+}
+
+.pixel:hover {
+  xbox-shadow: inset .313em .313em 0 rgba(0,0,0,0.8), inset -.313em -.313em 0 rgba(255,255,255,0.6), 0 1em 0.625em -.4em rgba(255,255,255,0.8);
+}
+
+.pixel:before {
+  content: " ";
+  position: absolute;
+  top: -.25em;
+  left: -.25em;
+  width: .625em;
+  height: .625em;
+  background: #1b1b1b;
+  border-bottom: solid .25em #000;
+  border-right: solid .25em #000;
+  box-shadow: .25em .25em 0 #FFF, .1em .9em 0 -.2em #FFF, 0.9em 0.1em 0 -.2em #FFF;
+}
+
+.pixel:after {
+  content: " ";
+  position: absolute;
+  bottom: -.25em;
+  right: -.25em;
+  width: .625em;
+  height: .625em;
+  background: #1b1b1b;
+  border-top: solid .25em #000;
+  border-left: solid .25em #000;
+  box-shadow: -.25em -.25em 0 #FFF, -.1em -.9em 0 -.2em #FFF, -0.9em -0.1em 0 -.2em #FFF;
+}
+
+.blinking-cursor {
+  display: inline;
+  font-weight: 100;
+  font-size: 1.3em;
+  color: #fff !important;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #fff;
+  }
+}

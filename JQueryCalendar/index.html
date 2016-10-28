@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Lab 4 - Peter Holyoke JQuery Calendar</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.0/js/bootstrap-datepicker.js"></script>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <div class="col-md-12 red">
+      <div class="row">
+        <h1 class="title text-center">Lab 4 - JQuery Calendar</h1>
+        <h5 class="text-center" style="background: #660000; margin-bottom: 0; padding: 5px;">Click <a href="js/custom.js">here</a> to view the source</h5>
+      </div>
+    </div>
+
+    <div class="container">			
+      <div class="col-md-12"><br>
+        <div class="btn-group controls">
+          <h1 class="datepicker"><span></span></h1>
+          <div class="pull-right"><input type="button" class="btn btn-success inline " value="Set All Available" /></div>
+          <div class="pull-right"><input type="button" class="btn btn-danger inline " value="Set All Unavailable" /></div>
+          <div class="pull-right"><input type="button" class="btn btn-default inline " value="Clear All" /></div>
+        </div>
+        <table class="table table-striped table-bordered noselect" id="calendar"></table>
+
+        <h5 class="text-center">(Double click <kbd class="inversekbd">Clear All</kbd> to remove everything, including your choices)</h5>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="js/custom.js"></script>
+</html>

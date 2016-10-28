@@ -1,0 +1,85 @@
+.red, .btn-red {
+  background: #890C0C;
+  color: #fff;
+}
+
+.btn-red:hover { color: #ccc !important; background: red !important; }
+
+.avcontainer {
+  margin-top: .5%;
+  padding-left: 0;
+  padding-bottom: 0;
+  border: 1px dotted black;
+}
+
+.avcontainer:nth-child(2) * {
+  display: inline;
+}
+.avcontainer h1 { color: #890C0C; }
+.avcontainer *{ margin-top: 1%; }
+#bg {
+  background: #fff;
+}
+
+#avatar {
+  padding-left: 0;
+  margin: 0;
+}
+
+#avatar img {
+  width: 85%;
+  height: 85%;
+  margin: 0;
+  xborder: 3px solid #890C0C;
+}
+
+.avcontainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .75;
+  z-index: -1;
+  background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/brickwall.png") center;
+}
+
+#userDesc { text-align: justify; margin: 10px;}
+#userInfo { padding: 0; }
+
+.gamename { margin: 0; padding: 0; }
+.achievements {
+  padding: 3%;
+  color: white;
+  text-shadow: -2px -2px 6px rgba(0, 0, 0, 1);
+}
+
+.achievements::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .75;
+  z-index: -1;
+  background: url("https://images7.alphacoders.com/587/587593.png") 40% 32%;
+  background-size: 120%;
+}
+
+.achContainer { 
+  color: #fff; 
+  background-color: #666; 
+}
+
+.text-online { color: #2aff00 !important; }
+.old { margin: 0 auto; }
+.old img { display: inline; }
+.container .row { margin: 0px; }
+
+.onlineStatus { font-weight: bold; }
+.kills span, .deaths span { font-style: italic; }
+.kdr, .hs { font-size: 2em; margin-top: 5px;}
+
+

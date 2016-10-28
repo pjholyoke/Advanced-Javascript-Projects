@@ -1,0 +1,28 @@
+.red, .btn-red {
+  background: #890C0C;
+  color: #fff;
+}
+
+.btn-red:hover { color: #ccc !important; background: red !important; }
+
+#form {
+  display: none;
+  width: 100% !important;
+}
+
+.checkbox-inline { padding-top: 0 !important; }
+label { text-align: left !important; }
+.well { padding: 5px; }
+
+.go {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#actorList, #action {
+  display: none;
+}
+
+.edit, .del { text-align: right; padding: 5px; }
+.mod .col-sm-12 { margin-bottom: .5em !important; }
+#ui-datepicker-div { z-index: 1337 !important; }

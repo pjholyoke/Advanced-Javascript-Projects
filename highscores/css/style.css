@@ -1,0 +1,52 @@
+@font-face {font-family:"space invaders";src:url("font/space_invaders.eot?") format("eot"),url("font/space_invaders.woff") format("woff"),url("font/space_invaders.ttf") format("truetype"),url("font/space_invaders.svg#Space-Invaders") format("svg");font-weight:normal;font-style:normal;}
+
+.red, .btn-red {
+  background: #890C0C;
+  color: #fff;
+}
+
+.btn-red:hover { color: #ccc !important; background: red !important; }
+
+body {
+  background: black;
+  color: white;
+}
+
+#highscores, #prompt h1 {
+  font-family: 'space invaders';
+}
+
+#prompt h1 { text-align: center; margin-top: 10%; }
+
+#highscores table {
+  background: black;
+  color: white;
+}
+
+#highscores table * {
+  border: 0 !important;
+}
+
+#highscores table tr td:nth-child(even){
+  text-align: right;
+}
+
+#highscores table2 tr td:nth-child(even) {
+  float: right;
+}
+
+input {
+  font-family: 'space invaders';
+  font-weight: bold;
+  background: black;
+  border: 0;
+  width: 35%;
+}
+
+input:focus {
+  outline: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}

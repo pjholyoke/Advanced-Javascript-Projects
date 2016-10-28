@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300);
+
+@font-face {
+  font-family: Minimal;
+  src: url('../fonts/minimal.otf');
+}
+
+textarea, input { outline: none; resize: none; }
+textarea { width: 100%; height: 100%; }
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                               not supported by any browser */
+}
+
+.background {
+  background: url('../images/background.jpg') no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.each-sticky-note-options {
+  z-index: 999;
+}
+
+
+.content {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background 1s;
+}
+
+
+.options i{
+  opacity: .45;
+  transition: opacity .5s;
+}
+
+.options i:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: opacity .5s;
+}
+
+.options {
+  padding: 1%;
+  font-size: 2em;
+}
+
+.clock h1 {
+  font-family: Minimal;
+  font-size: 7.5em;
+  text-align: right;
+  margin-bottom: -1.5%;
+  padding: 0;
+}
+
+.weather{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: right;
+}
+
+.bottom-collapse > ul > li.active a{ background: transparent!important; }
+
+.shortcut a {
+  padding-left: .5em !important;
+  padding-right: .5em !important;
+}
+
+.dl {
+  xborder: 1px solid #888;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  -webkit-transition: background 1s;
+  -moz-transition: background 1s;
+  -ms-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s;
+}
+
+.dl:hover {
+  background: #5A652D;
+  -webkit-transition: background .25s;
+  -moz-transition: background .25s;
+  -ms-transition: background .25s;
+  -o-transition: background .25s;
+  transition: background .25s;
+}
+
+.dl a { padding: 0px .5em 0px .5em !important; }
+.dl a:hover { color: #fff !important; }
+
+.space { margin-right: .15em; }
+
+.navbar { transition: background 1.25s; }
+.content { transition: color 1.5s; }
+.navbar li a { padding: .25em 2em 0em 2em; }
+#modal li { border: 1px solid orange; }
+#modal { color: orange; }
+
+paper-dialog .colors ul li:hover {
+  cursor: pointer;
+}
+
+paper-dialog .colors ul li {
+  xwidth: 20px;
+  margin: 5px;
+  height: 20px;
+  list-style: none;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+h5.title {
+  border-bottom: 1px dotted black;
+  padding-bottom: .3em;
+}
+
+.shortcut img {
+  margin-left: 50%;
+}
+
+.bg {
+  background: #000;
+}
+
+.blue {
+  background: #13b4ff;
+}
+
+.purple {
+  background: #ab3fdd;
+}
+
+.wine {
+  background: #ae163e;
+}
+
+
+

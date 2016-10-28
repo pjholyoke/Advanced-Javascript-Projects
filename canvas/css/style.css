@@ -1,0 +1,19 @@
+.red {
+	background: #890C0C;
+	color: white;
+}
+
+.container > div {
+	padding-top: 1% !important;
+}
+
+canvas {
+	padding: 1%;
+	border: 1px solid #d3d3d3;
+	background: url("fl.png") no-repeat, url("bg.jpg");
+	background-position: right center, center center;
+	-webkit-background-size: 32%%;
+	background-size: 5%, 32%;
+	position: relative;
+	overflow: hidden;
+}

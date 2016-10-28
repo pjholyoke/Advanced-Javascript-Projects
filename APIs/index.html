@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Lab 6 - Peter Holyoke Ajax API Queries</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+    <link rel="manifest" href="../favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+
+  <body>
+    <div class="col-md-12 red">
+      <div class="row">
+        <h1 class="title text-center">Lab 6 - Ajax API Queries</h1>
+        <h5 class="text-center" style="background: #660000; margin-bottom: 0; padding: 5px;">Click <a href="js/custom.js">here</a> to view the source</h5>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+          <h4>(Steam)</h4>
+        </div>
+
+        <div class="col-md-12 col-sm-10 col-xs-10 col-md-offset-0 col-sm-offset-1 col-xs-offset-1 avcontainer">
+          <div id="avatar" class="col-md-2 col-sm-2 col-xs-2"></div>
+
+          <div id="userInfo" class="col-md-2 col-sm-2 col-xs-10" style="padding-left: 5px;">
+            <div class="row"><h1 class="name" style="margin-top: 0 !important; padding: 0px; clear:right;"></h1></div>
+            <div class="row"><h5 class="onlineStatus"></h5></div>
+          </div>
+
+          <div id="userDesc" class="col-md-6 col-sm-12 col-xs-12" style="padding-left: 0px;">
+            <div class="row">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis leo sed lorem rutrum, non viverra lorem volutpat. Mauris fermentum non lectus quis pretium. Nulla blandit, diam ac fermentum pellentesque, odio turpis dapibus dolor, bibendum porta nibh magna in augue. Vivamus sodales sagittis est vitae placerat. Sed sit amet ante sed velit vehicula lobortis. Nullam quam quam, ornare eget egestas ut, vulputate in lectus. Duis finibus tellus eget tortor commodo aliquam.</p>
+            </div>
+          </div>
+
+          <div class="col-md-1 hidden-sm hidden-xs" style="margin: 0;"><span class="old"></span></div>
+        </div>
+
+        <div class="col-md-12 col-sm-10 col-xs-10 col-md-offset-0 col-sm-offset-1 col-xs-offset-1"><h3>Stats</h3></div>
+        <div class="col-md-12 col-sm-10 col-xs-10 col-md-offset-0 col-sm-offset-1 col-xs-offset-1 avcontainer achievements">
+          <h4 class="gamename"></h4>
+        </div>
+        <div class="achContainer col-md-12 col-sm-10 col-xs-10 col-md-offset-0 col-sm-offset-1 col-xs-offset-1">
+          <div class="col-md-3 col-sm-3 col-xs-3">
+            <div class="row"><h4 class="kills">Total Kills: <span></span></h4></div>
+            <div class="row"><h4 class="deaths">Total Deaths: <span></span></h4></div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-xs-3">
+            <div class="row"><h4 class="kdr"><span></span> <i style="text-align: right;">K/D Ratio</i></h4> <p class="hs"><span></span> <img src="images/hs.png" width="50px" height="50px"></p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0-rc.1/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/jquery.bootstrap-growl.js"></script>
+
+  <script type="text/javascript" src="js/custom.js"></script>
+</html>
